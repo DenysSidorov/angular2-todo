@@ -4,10 +4,10 @@
     "author": "Oleg Polyakov",
     "description": "An angular2 todo app",
     "scripts": {
-        "start": "concurrent \"npm run tsc:w\" \"npm run serve\" ", //if start not in WebStrom and auto-reload
+        "start": "concurrent \"npm run tsc:w\" \"npm run serve\" ",
         "tsc": "tsc",
         "tsc:w": "tsc -w",
-        "serve": "lite-server" // server for ajax
+        "serve": "lite-server"
     },
     "license": "ISC",
     "dependencies": {
